@@ -103,6 +103,10 @@ export default {
       },
     ],
   }),
+  created() {
+    console.log(this.$t('badge'))
+  },
+  methods: {},
 }
 
 </script>
