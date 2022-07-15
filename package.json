@@ -12,7 +12,8 @@
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
     "vuetify": "^2.6.0",
-    "vuex": "^3.4.0"
+    "vuex": "^3.4.0",
+    "webrtc-streamer": "^0.7.0-20-g363199c"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.15",
@@ -20,11 +21,13 @@
     "@vue/cli-plugin-router": "^4.5.19",
     "@vue/cli-plugin-vuex": "^4.5.19",
     "@vue/cli-service": "~4.5.15",
+    "axios": "^0.27.2",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
     "sass": "~1.32.0",
     "sass-loader": "^10.0.0",
+    "vue-cli-plugin-axios": "^0.0.4",
     "vue-cli-plugin-vuetify": "^2.5.1",
     "vue-template-compiler": "^2.6.11",
     "vuetify-loader": "^1.7.0"
@@ -41,7 +44,9 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "no-unused-vars": 0
+    }
   },
   "browserslist": [
     "> 1%",
